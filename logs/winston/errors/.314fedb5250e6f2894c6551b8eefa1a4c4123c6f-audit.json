@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\project\\job-task\\hodlinfo\\logs\\winston\\errors\\.314fedb5250e6f2894c6551b8eefa1a4c4123c6f-audit.json",
+    "files": [
+        {
+            "date": 1706799291736,
+            "name": "C:\\project\\job-task\\hodlinfo\\logs\\winston\\errors\\backend-2024-01-02-20-error.log",
+            "hash": "5da5bdba288181455548c431f8bb948456a842e400ec8fd3bfa206647001b1f1"
+        },
+        {
+            "date": 1706799995003,
+            "name": "C:\\project\\job-task\\hodlinfo\\logs\\winston\\errors\\backend-2024-01-02-21-error.log",
+            "hash": "1cff6ada6798ff35c4fb94d609141e75530dc728245eb54cd7846623460fcf60"
+        },
+        {
+            "date": 1706806206277,
+            "name": "C:\\project\\job-task\\hodlinfo\\logs\\winston\\errors\\backend-2024-01-02-22-error.log",
+            "hash": "e15d7dec6511e5af64205119cee1ec70fac789c6d5413e2df26bca18b9a71f8f"
+        },
+        {
+            "date": 1706808919419,
+            "name": "C:\\project\\job-task\\hodlinfo\\logs\\winston\\errors\\backend-2024-01-02-23-error.log",
+            "hash": "088e93edc018739405fc25235541480d8a051779d3feb6d0f726a2af9ad15533"
+        }
+    ],
+    "hashType": "sha256"
+}

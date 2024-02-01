@@ -10,8 +10,34 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  name  String?
+model Category {
+  id        String   @id @default(uuid())
+  title     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  crypto    Crypto[]
+
+  @@map("category")
+}
+
+// schema.prisma
+
+model Crypto {
+  id         String   @id @default(uuid())
+  baseUnit   String
+  quoteUnit  String
+  low        Float
+  high       Float
+  last       Float
+  type       String
+  open       String
+  volume     Float
+  sell       Float
+  buy        Float
+  at         Int
+  name       String
+  categoryId String
+  category   Category @relation(fields: [categoryId], references: [id])
+
+  @@map("crypto")
 }
