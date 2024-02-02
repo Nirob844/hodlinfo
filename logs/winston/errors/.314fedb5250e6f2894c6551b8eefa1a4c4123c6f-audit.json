@@ -24,6 +24,21 @@
             "date": 1706808919419,
             "name": "C:\\project\\job-task\\hodlinfo\\logs\\winston\\errors\\backend-2024-01-02-23-error.log",
             "hash": "088e93edc018739405fc25235541480d8a051779d3feb6d0f726a2af9ad15533"
+        },
+        {
+            "date": 1706880442118,
+            "name": "C:\\project\\job-task\\hodlinfo\\logs\\winston\\errors\\backend-2024-02-02-19-error.log",
+            "hash": "39c8391fbccfe1cbdd94fe245fb7081c01e524a2a2bb0cbd33911973ae974cbf"
+        },
+        {
+            "date": 1706891656486,
+            "name": "C:\\project\\job-task\\hodlinfo\\logs\\winston\\errors\\backend-2024-02-02-22-error.log",
+            "hash": "1fe7c15648fa4a62434c9e883d259311e46dc7324dc25dab51bd9556a852f477"
+        },
+        {
+            "date": 1706893455874,
+            "name": "C:\\project\\job-task\\hodlinfo\\logs\\winston\\errors\\backend-2024-02-02-23-error.log",
+            "hash": "e45c59a8d6f8cbc521764280bcbdf309c956662b2aad4f83f6285bd868f7947e"
         }
     ],
     "hashType": "sha256"
